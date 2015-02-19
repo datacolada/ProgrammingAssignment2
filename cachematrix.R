@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The first function, makeCacheMatrix creates a matrix,
+## sets its value, gets its value, 
+## sets value of inverse, gets value of the inverse matrix 
+## second function, cacheSolve calculates the inverse of the matrix 
+## created with the makeCacheMatrix function but first checks to see
+## if the mean has already been calculated. 
+## If it has it gets it from cache rather than recalculating it.
+
 
 ## This function creates a special "matrix" object that caches its inverse
 
